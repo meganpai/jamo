@@ -1,0 +1,49 @@
+/* 218. SERIES 1 */
+
+@font-face {
+  font-family: "Hershey";
+  src: url("Fonts/Hershey-Noailles-Futura-Duplex-Bold.otf");
+}
+body {
+  padding: 0;
+  background-color: lightgray;
+}
+
+button {
+	border: dashed;
+  border-width: thin;
+  cursor:alias;
+}
+button:focus {
+	outline: 0;
+}
+
+a {
+  display: inline-flex;
+  margin-top: 7%;
+  text-decoration: none;
+  color: black;
+  font-family: "Hershey"
+}
+
+a:visited {
+  color: black;
+}
+
+p {
+  font-family: "Hershey";
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#home {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  margin-top: 20px;
+  margin-left:50vw;
+  border: thin solid RGB(0,255,0);
+}

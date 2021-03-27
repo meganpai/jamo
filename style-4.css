@@ -1,0 +1,160 @@
+/* 218. SERIES 1 */
+
+@font-face {
+  font-family: "Hershey";
+  src: url("Fonts/Hershey-Noailles-Futura-Duplex-Bold.otf");
+}
+body {
+  padding: 0;
+  background-color: lightgray;
+}
+textarea {
+  outline: none;
+  border: none;
+  resize: none;
+  font-family: "Hershey";
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+  display: inline-flex;
+  background-color: lightgray;
+}
+
+button {
+	border: dashed;
+  border-width: thin;
+  cursor:alias;
+}
+button:focus {
+	outline: 0;
+}
+
+a {
+  display: inline-flex;
+  margin-top: 7%;
+  text-decoration: none;
+  color: black;
+  font-family: "Hershey"
+}
+
+a:visited {
+  color: black;
+}
+
+p {
+  font-family: "Hershey";
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template rows: 66vh 33vh;
+}
+.initial, .median {
+	display: inline-flex;
+	width: 100%;
+	margin-bottom: 0px;
+	overflow: scroll;
+  border-right: dashed;
+  border-left: dashed;
+  border-width: thin;
+	border-bottom: solid;
+  border-color: RGB(0,255,0);
+
+}
+.final {
+	display: flex;
+}
+.initial img, .median img {
+	width: 50%;
+}
+.buttons {
+	display: inline-flex;
+	z-index: 1;
+	position: absolute;
+	height: 15px;
+}
+.home {
+  height: 15px;
+  position: absolute;
+}
+.collect {
+  height: 15px;
+  float: right;
+  margin-top: 5px;
+}
+.spacer {
+  height: 22px;
+}
+.asterisk {
+  font-family: sans-serif;
+  font-size: 33px;
+  margin-top: 80px;
+}
+.exercise-1 {
+  font-family: sans-serif;
+  font-size: 33px;
+  margin-left: 0px;
+}
+#one {
+  background-color: cornflowerblue;
+}
+#two {
+  background-color: darkkhaki;
+}
+#three {
+  background-color: tomato;
+}
+#headlines {
+  float: left;
+}
+#one, #A-headline, #A-body, #A-image {
+  border-color: tomato;
+  background-color: cornflowerblue;
+  height: 15px;
+  width: 15px;
+}
+#two, #B-headline, #B-body, #B-image {
+  border-color: cornflowerblue;
+  background-color: darkkhaki;
+  height: 15px;
+  width: 15px;
+}
+#three, #C-headline, #C-body, #C-image {
+  border-color: darkkhaki;
+  background-color: tomato;
+  height: 15px;
+  width: 15px;
+}
+#hbi-B {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 16px;
+  margin-left: 100px;
+  position: absolute;
+ }
+#hbi-C {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 17px;
+  margin-left: 147px;
+  position: absolute;
+}
+
+#five-collection {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  margin-top: -30px;
+  margin-left:50vw;
+  border: thin solid RGB(0,255,0);
+}

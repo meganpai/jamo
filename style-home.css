@@ -1,0 +1,129 @@
+/* 218. SERIES 1 */
+
+@font-face {
+  font-family: "Hershey";
+  src: url("Fonts/Hershey-Noailles-Futura-Duplex-Bold.otf");
+}
+body {
+  padding: 0px;
+  background-color: lightgray;
+  font-size: 20px;
+  margin: 0px;
+  font-family: "Hershey";
+}
+textarea {
+  outline: none;
+  border: none;
+  resize: none;
+  font-family: "Hershey";
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+  display: inline-flex;
+  background-color: #f0f0f0;
+}
+
+button {
+	border: dashed;
+  border-width: thin;
+  height: 20px;
+  width: 20px;
+  padding: 0px;
+  cursor: alias;
+}
+button:focus {
+	outline: 0;
+}
+
+a {
+  display: inline-flex;
+  margin-top: 0;
+  margin-left: 9px;
+  text-decoration: none;
+  color: black;
+  font-family: "Hershey";
+  text-align: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+a:visited {
+  font-size: 30px;
+
+}
+
+p {
+  font-family: "Hershey";
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.buttons {
+  width: 100%;
+  font-size: 0px;
+}
+.container {
+  display: block;
+  padding-left: auto;
+  padding-right: auto;
+  text-align: center;
+}
+
+#home {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  margin-top: 0px;
+  margin-left:50vw;
+  border: thin solid RGB(0,255,0);
+}
+
+#one-hangul {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  margin-top: 250px;
+  margin-left:50vw;
+  border: thin solid RGB(0,255,0);
+}
+#two-blocks {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  margin-top: 270px;
+  margin-left:680px;
+  border: thin solid RGB(0,255,0);
+}
+#three-type {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  margin-top: 290px;
+  margin-left:703px;
+  border: thin solid RGB(0,255,0);
+}
+#four-media {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  margin-top: 310px;
+  margin-left:683px;
+  border: thin solid RGB(0,255,0);
+}
+#five-collection {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  margin-top: 330px;
+  margin-left:688px;
+  border: thin solid RGB(0,255,0);
+}

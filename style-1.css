@@ -1,0 +1,120 @@
+@font-face {
+  font-family: "Hershey";
+  src: url("Fonts/Hershey-Noailles-Futura-Duplex-Bold.otf");
+}
+
+body {
+  background-color: lightgray;
+}
+p {
+	font-family: sans-serif;
+}
+button {
+  cursor: alias;
+}
+button:focus {
+	outline: 0;
+}
+.categories {
+	font-family: "Hershey";
+  font-size: 20px;
+  color:#b3b3b3;
+  z-index: 1;
+  margin-top: 95vh;
+}
+
+
+.columns {
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	z-index: -1;
+}
+.consonants-column, .aspirated-consonants-column, .tense-consonants-column, .vowels-column, .iotized-vowels-column, .diphthongs-column {
+	flex: 0 0 auto;
+	width: 16.5vw;
+}
+
+
+.consonants-column-mark, .aspirated-consonants-column-mark, .tense-consonants-column-mark, .vowels-column-mark, .iotized-vowels-column-mark, .diphthongs-column-mark {
+  border-width: thin;
+  border-style:dashed;
+  border-bottom-color: RGB(0,255,0);
+  margin-top: -15px;
+}
+
+.consonants-column-mark {
+	color: cornflowerblue;
+	background-color: cornflowerblue;
+  outline-color: tomato;
+}
+.aspirated-consonants-column-mark {
+	color: darkkhaki;
+	background-color: darkkhaki;
+  outline-color: blue;
+}
+.tense-consonants-column-mark {
+	color: #ff00ff;
+	background-color: #ff00ff;
+  outline-color: cornflowerblue;
+}
+.vowels-column-mark {
+	color: #d1b217;
+	background-color: #d1b217;
+  outline-color: RGB(0,255,0);
+}
+.iotized-vowels-column-mark {
+	color: tomato;
+	background-color: tomato;
+  outline-color: darkkhaki;
+}
+.diphthongs-column-mark {
+	color: #9ab565;
+	background-color: #9ab565;
+  outline-color: magenta;
+}
+
+
+.consonants, .aspirated-consonants, .tense-consonants, .vowels, .iotized-vowels, .diphthongs {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 100%;
+	font-size:33px;
+	font-family:sans-serif;
+	cursor:grab;
+  position: fixed;
+	}
+
+.consonants {
+  color: cornflowerblue;
+  }
+.aspirated-consonants {
+	color: darkkhaki;
+	}
+.tense-consonants {
+	color: magenta;
+	}
+.vowels {
+	color: #d1b217;
+	}
+.iotized-vowels {
+	color: tomato;
+	}
+.diphthongs {
+	color: #9ab565;
+	}
+
+  .instructions {
+  position: absolute;
+  text-align: center;
+  }
+
+  #two-blocks {
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-top: 400px;
+    margin-left:50vw;
+    border: thin solid RGB(0,255,0);
+  }

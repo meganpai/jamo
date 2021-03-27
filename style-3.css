@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "Hershey";
+  src: url("Fonts/Hershey-Noailles-Futura-Duplex-Bold.otf");
+}
+
+body {
+  background-color: lightgray;
+}
+p {
+	font-family: "Hershey";
+  font-size: 30px;
+  color: darkgray;
+  text-align: center;
+}
+textarea {
+  width: 100px;
+  font-family: "Hershey";
+  font-size: 15px;
+  border: none;
+  resize: none;
+  padding: 5px;
+  display: inline-flex;
+  color: lightgray;
+}
+button {
+  cursor: alias;
+}
+button:focus {
+	outline: 0;
+}
+.keyboard {
+  justify-content: center;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 280px;
+  text-align: center;
+  font-size: 0px;
+}
+.centered {
+  display: block;
+  padding-left: auto;
+  padding-right: auto;
+  text-align: center;
+}
+#q, #e, #t, #u, #o {
+  background-color: cornflowerblue;
+  text-align: center;
+}
+#w, #r, #y, #i, #p {
+  background-color: lightgray;
+  outline: dashed thin cornflowerblue;
+  text-align: center;
+  color: cornflowerblue
+}
+
+#s, #f, #h, #k {
+  background-color: darkkhaki;
+  text-align: center;
+}
+#a, #d, #g, #j, #l {
+  background-color: lightgray;
+  outline: dashed thin darkkhaki;
+  text-align: center;
+  color: darkkhaki;
+}
+
+#x, #v, #n {
+  background-color: tomato;
+  text-align: center;
+}
+#z,#c,#b, #m {
+  background-color: lightgray;
+  outline: dashed thin tomato;
+  text-align: center;
+  color: tomato;
+}
+
+#four-media {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  margin-top: 220px;
+  margin-left:50vw;
+  border: thin solid RGB(0,255,0);
+}

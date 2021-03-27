@@ -1,0 +1,390 @@
+@font-face {
+  font-family: "Hershey";
+  src: url("Fonts/Hershey-Noailles-Futura-Duplex-Bold.otf");
+}
+
+body {
+  background-color: silver;
+}
+p {
+	font-family: sans-serif;
+}
+
+h1 {
+  font-family: "Hershey";
+  font-size: 15px;
+}
+button {
+  cursor: alias;
+}
+button:focus {
+	outline: 0;
+}
+.instructions {
+position: absolute;
+text-align: center;
+}
+.instruct {
+position: absolute;
+text-align: center;
+display: block;
+}
+
+
+
+.blocks-consonants-base, .blocks-consonants-keyboard, .blocks-consonants-hangul {
+  display: flex;
+  padding: 0px;
+  z-index: 0;
+}
+.blocks-consonants-base {
+  margin-top: 100px;
+}
+.blocks-consonants-keyboard {
+  margin-top: -260px;
+}
+.blocks-consonants-hangul {
+  margin-top: -80px;
+}
+
+.speech-block-consonants-base, .speech-block-consonants-hangul {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  color: cornflowerblue;
+}
+.speech-block-consonants-keyboard {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  color: RGB(0,255,0);
+}
+.speech-block-consonants-base, .speech-block-consonants-keyboard {
+  outline: dashed thin RGB(0,255,0);
+}
+.speech-block-consonants-hangul {
+  background-color: RGB(0,255,0);
+}
+
+
+
+.blocks-aspirated-base, .blocks-aspirated-keyboard, .blocks-aspirated-hangul {
+  display: flex;
+  padding: 0px;
+  z-index: 0;
+}
+.blocks-aspirated-base {
+  margin-top: 250px;
+}
+.blocks-aspirated-keyboard {
+  margin-top: -280px;
+}
+.blocks-aspirated-hangul {
+  margin-top: 60px;
+}
+
+.speech-block-aspirated-base, .speech-block-aspirated-hangul {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  color: #818f00;
+}
+.speech-block-aspirated-keyboard {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  color: RGB(0,255,0);
+}
+.speech-block-aspirated-base, .speech-block-aspirated-keyboard {
+  outline: dashed thin RGB(0,255,0);
+}
+.speech-block-aspirated-hangul {
+  background-color: RGB(0,255,0);
+}
+
+
+
+.blocks-tense-base, .blocks-tense-keyboard, .blocks-tense-hangul {
+  display: flex;
+  padding: 0px;
+  z-index: 0;
+}
+.blocks-tense-base {
+  margin-top: 300px;
+}
+.blocks-tense-keyboard {
+  margin-top: -220px;
+}
+.blocks-tense-hangul {
+  margin-top: 0px;
+}
+
+.speech-block-tense-base, .speech-block-tense-hangul {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  color: magenta;
+}
+.speech-block-tense-keyboard {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  color: RGB(0,255,0);
+}
+.speech-block-tense-base, .speech-block-tense-keyboard {
+  outline: dashed thin RGB(0,255,0);
+}
+.speech-block-tense-hangul {
+  background-color: RGB(0,255,0);
+}
+
+
+
+
+.blocks-vowels-base, .blocks-vowels-keyboard, .blocks-vowels-hangul {
+  display: flex;
+  padding: 0px;
+  z-index: 0;
+}
+.blocks-vowels-base {
+  margin-top: 340px;
+}
+.blocks-vowels-keyboard {
+  margin-top: -280px;
+}
+.blocks-vowels-hangul {
+  margin-top: 20px;
+}
+
+.speech-block-vowels-base, .speech-block-vowels-hangul {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  color: #c49300;
+}
+.speech-block-vowels-keyboard {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  color: RGB(0,255,0);
+}
+.speech-block-vowels-base, .speech-block-vowels-keyboard {
+  outline: dashed thin RGB(0,255,0);
+}
+.speech-block-vowels-hangul {
+  background-color: RGB(0,255,0);
+}
+
+
+
+
+
+.blocks-iotized-base, .blocks-iotized-keyboard, .blocks-iotized-hangul {
+  display: flex;
+  padding: 0px;
+  z-index: 0;
+}
+.blocks-iotized-base {
+  margin-top: 400px;
+}
+.blocks-iotized-keyboard {
+  margin-top: -300px;
+}
+.blocks-iotized-hangul {
+  margin-top: 120px;
+}
+
+.speech-block-iotized-base, .speech-block-iotized-hangul {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  color: tomato;
+}
+.speech-block-iotized-keyboard {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  color: RGB(0,255,0);
+}
+.speech-block-iotized-base, .speech-block-iotized-keyboard {
+  outline: dashed thin RGB(0,255,0);
+}
+.speech-block-iotized-hangul {
+  background-color: RGB(0,255,0);
+}
+
+
+
+
+.blocks-diphthongs-base, .blocks-diphthongs-keyboard, .blocks-diphthongs-hangul {
+  display: flex;
+  padding: 0px;
+  z-index: 0;
+}
+.blocks-diphthongs-base {
+  margin-top: 600px;
+}
+.blocks-diphthongs-keyboard {
+  margin-top: -660px;
+}
+.blocks-diphthongs-hangul {
+  margin-top: 200px;
+}
+
+.speech-block-diphthongs-base, .speech-block-diphthongs-hangul {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  color: #68852e;
+}
+.speech-block-diphthongs-keyboard {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  color: RGB(0,255,0);
+}
+.speech-block-diphthongs-base, .speech-block-diphthongs-keyboard {
+  outline: dashed thin RGB(0,255,0);
+}
+.speech-block-diphthongs-hangul {
+  background-color: RGB(0,255,0);
+}
+
+
+
+
+.categories {
+	font-family: "Hershey";
+  font-size: 20px;
+  color:darkgray;
+  z-index: 1;
+  margin-top: 50vh;
+}
+
+
+.columns {
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	z-index: -1;
+}
+.consonants-column, .aspirated-consonants-column, .tense-consonants-column, .vowels-column, .iotized-vowels-column, .diphthongs-column {
+	flex: 0 0 auto;
+	width: 16.5vw;
+}
+
+
+.consonants-column-mark, .aspirated-consonants-column-mark, .tense-consonants-column-mark, .vowels-column-mark, .iotized-vowels-column-mark, .diphthongs-column-mark {
+  border-width: thin;
+  border-style:dashed;
+  border-bottom-color: RGB(0,255,0);
+  margin-top: -15px;
+}
+
+.consonants-column-mark {
+	color: cornflowerblue;
+	background-color: cornflowerblue;
+  outline-color: tomato;
+}
+.aspirated-consonants-column-mark {
+	color: darkkhaki;
+	background-color: darkkhaki;
+  outline-color: blue;
+}
+.tense-consonants-column-mark {
+	color: #ff00ff;
+	background-color: #ff00ff;
+  outline-color: cornflowerblue;
+}
+.vowels-column-mark {
+	color: #d1b217;
+	background-color: #d1b217;
+  outline-color: RGB(0,255,0);
+}
+.iotized-vowels-column-mark {
+	color: tomato;
+	background-color: tomato;
+  outline-color: #918910;
+}
+.diphthongs-column-mark {
+	color: #9ab565;
+	background-color: #9ab565;
+  outline-color: magenta;
+}
+
+
+.consonants, .aspirated-consonants, .tense-consonants, .vowels, .iotized-vowels, .diphthongs {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 100%;
+	font-size:33px;
+	font-family:sans-serif;
+	cursor:grab;
+  position: fixed;
+	}
+
+.consonants {
+  color: cornflowerblue;
+  }
+.aspirated-consonants {
+	color: #918910;
+	}
+.tense-consonants {
+	color: magenta;
+	}
+.vowels {
+	color: #d1b217;
+	}
+.iotized-vowels {
+	color: tomato;
+	}
+.diphthongs {
+	color: #68852e;
+	}
+
+
+  #three-type {
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-top: 330px;
+    margin-left:50vw;
+    border: thin solid RGB(0,255,0);
+  }
