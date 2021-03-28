@@ -71,7 +71,9 @@ p {
   padding-right: auto;
   text-align: center;
 }
-
+.italic {
+  margin-left: 3px;
+}
 #home {
   display: inline-flex;
   width: 20px;
