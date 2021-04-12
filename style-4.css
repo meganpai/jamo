@@ -6,7 +6,7 @@
 }
 body {
   padding: 0;
-  background-color: lightgray;
+  background-color: RGB(175,175,175);
 }
 textarea {
   outline: none;
@@ -20,7 +20,8 @@ textarea {
 	margin-left: auto;
 	margin-right: auto;
   display: inline-flex;
-  background-color: lightgray;
+  background-color: RGB(175,175,175);
+  color: RGB(210,210,210);
 }
 
 button {
